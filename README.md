@@ -12,3 +12,9 @@ This repository provides a clean and minimal template for organizing a C++ proje
 # License
 
 - MIT License
+
+# Inpired by TheCherno (Project Template)
+
+[YouTube](https://www.youtube.com/@TheCherno)
+
+[Project Template](https://github.com/TheCherno/ProjectTemplate)
