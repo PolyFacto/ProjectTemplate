@@ -19,4 +19,4 @@ endif()
 set(BINARIES_DIR ${CMAKE_SOURCE_DIR}/Binaries/${PROJECT_NAME}/${CMAKE_BUILD_TYPE}/${CMAKE_SYSTEM_NAME}/${ARCH_NAME})
 
 set_target_properties(${PROJECT_NAME} PROPERTIES ARCHIVE_OUTPUT_DIRECTORY ${BINARIES_DIR})
-target_include_directories(Core PUBLIC ${CMAKE_SOURCE_DIR}/Source)
+target_include_directories(Core PUBLIC ${CMAKE_SOURCE_DIR}/Include)
