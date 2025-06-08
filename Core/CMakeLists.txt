@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 file(GLOB_RECURSE CORE_SOURCES CONFIGURE_DEPENDS
         Source/*.cpp
-        Source/*.h
+        Include/*.h
 )
 
 add_library(Core STATIC ${CORE_SOURCES})

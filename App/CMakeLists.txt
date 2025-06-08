@@ -21,4 +21,4 @@ set(BINARIES_DIR ${CMAKE_SOURCE_DIR}/Binaries/${PROJECT_NAME}/${CMAKE_BUILD_TYPE
 set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${BINARIES_DIR})
 
 target_link_libraries(App PUBLIC Core)
-target_include_directories(Core PUBLIC ${CMAKE_SOURCE_DIR}/Core/Source)
+target_include_directories(Core PUBLIC ${CMAKE_SOURCE_DIR}/Core/Include)
