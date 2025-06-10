@@ -1,9 +1,6 @@
-#include <../../Core/Include/Core.h>
-
-#include <iostream>
+#include <Core.h>
 
 int main()
 {
     Core::PrintHelloWorld();
-    std::cin.get();
 }
